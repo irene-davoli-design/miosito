@@ -1,0 +1,175 @@
+.logo{
+    width: 100%;
+    min-width: 20px;
+    max-width: 40px;
+    height: auto;
+}
+
+.riga1{
+    background-color: #FFE8BD;
+    align-items: center; /* Centra verticalmente */
+    padding: 20px 25px;
+}
+
+.immagine-1{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nav-list{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.8);
+    border-bottom: solid 4px transparent;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 8px;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: #B98118;
+    border-bottom: solid 4px #B98118;
+}
+
+.btn-menu{
+    background: transparent no-repeat url(../img/dash-menu.svg);
+    border: none;
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+    top: -20px;
+}
+
+.position-relative{
+    position: relative;
+    padding: 0;
+}
+
+.testo-sopra-immagine {
+    position: absolute;
+    top: 50%;
+    color: #000;
+    text-align: center;
+    z-index: 10;
+    text-align: left;
+}
+
+.testo-sopra-immagine h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 128px;
+    margin: 0;
+    line-height: 120px;
+}
+
+.testo-sopra-immagine p {
+    font-family: 'Fragment Mono', monospace;
+    font-size: 24px;
+    margin: 10px 0 0 0;
+    padding-bottom: 20px;
+}
+
+.riga3{
+    background-color: #71C693;
+    padding: 60px 0;
+}
+
+.testo-normale h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    color: #253D2F;
+    margin-bottom: 26px;
+}
+
+.testo-normale p{
+    font-family: 'Fragment Mono', monospace;
+    font-size: 16px;
+    color: #253D2F;
+}
+
+.immagine-2 {
+    width: 570px;
+    height: 400px;
+    display: block;
+}
+
+.riga4{
+    background-color: #FECCDF;
+    padding: 60px 0;
+}
+
+.testo-normale-2 h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+    color: #452933;
+    margin-bottom: 5px;
+}
+
+.testo-normale-2 h2{
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+    color: #452933;
+    margin-bottom:10px;
+}
+
+.testo-normale-2 p{
+    font-family: 'Fragment Mono', monospace;
+    font-size: 16px;
+    color: #452933;
+    margin-bottom: 50px;
+}
+
+.testo-normale-2 a{
+    font-family: 'Fragment Mono', monospace;
+    font-size: 16px;
+    color: #452933;
+    text-decoration: none;
+}
+
+.testo-normale-2 a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+    .testo-sopra-immagine {
+        width: 85%;
+        left: 20px;
+        transform: translateY(-50%);
+    }
+    
+    .testo-sopra-immagine h1 {
+        font-size: 48px;
+        line-height: 45px;
+    }
+    
+    .testo-sopra-immagine p {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    
+    .nav-link {
+        font-size: 14px;
+        margin: 4px;
+        padding: 4px;
+    }
+    
+    .riga1 {
+        padding: 15px 20px;
+    }
+}
